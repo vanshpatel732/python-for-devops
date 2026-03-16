@@ -21,5 +21,5 @@ def get_stock_market_data(symbol,is_timeseries):
 
 
 symbol = input("Enter the Symbol you want for the Stock Market API eg. (AMZN, GOGL, IBM, etc)")
-is_timeseries = True
+is_timeseries = False
 get_stock_market_data(symbol,is_timeseries)
